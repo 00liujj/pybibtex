@@ -1,9 +1,8 @@
 from distutils.core import setup
 import py2exe
-
 import sys
-sys.argv.extend(['py2exe', '-p' 'pybtex'])
 
+sys.argv.extend(['py2exe', '-p' 'pybtex'])
 print sys.argv
 
 options = { 'py2exe': {
