@@ -25,7 +25,12 @@ SolidCompression=yes
 
 [Files]
 
-Source: "dist\*";    DestDir: "{app}";    Flags: ignoreversion recursesubdirs createallsubdirs
+Source: "dist\*";      DestDir: "{app}";    Flags: ignoreversion recursesubdirs createallsubdirs
+Source: "pinyin\*";    DestDir: "{app}\pinyin";    Flags: ignoreversion recursesubdirs createallsubdirs
+Source: "chardet\*";   DestDir: "{app}\chardet";    Flags: ignoreversion recursesubdirs createallsubdirs
+Source: "pybtex\*";    DestDir: "{app}\pybtex";    Flags: ignoreversion recursesubdirs createallsubdirs
+Source: "pybibtex.py";    DestDir: "{app}";    Flags: ignoreversion
+
 
 
 ; modify path environment
